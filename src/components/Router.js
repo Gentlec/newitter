@@ -7,8 +7,8 @@ import {
 } from "react-router-dom";
 import Auth from "routes/Auth";
 import Home from "routes/Home";
-import Navigation from "components/Navigation";
 import Profile from "routes/Profile";
+import Navigation from "components/Navigation";
 
 const AppRouter = ({ isLoggedIn }) => {
   return (

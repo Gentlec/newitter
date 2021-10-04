@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import AppRouter from "components/Router";
 import { authService } from "nwFirebase";
 
-function App() {
+const App = () => {
   const [init, setInit] = useState(false);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   useEffect(() => {
@@ -21,6 +21,6 @@ function App() {
       <footer>&copy; {new Date().getFullYear()} Newitter</footer>
     </>
   );
-}
+};
 
 export default App;
